@@ -1,0 +1,116 @@
+
+		Thu Nov 06 2025
+01:19:51 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+01:19:51   WikiV version 0.6 from OpenLink Software
+01:19:51   Support functions for WikiV collaboration tool
+01:19:51   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+01:19:51 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+01:19:51   MediaWiki version 0.1 from OpenLink Software
+01:19:51   Support functions for MediaWiki collaboration tool
+01:19:51   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+01:19:51 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+01:19:51   CreoleWiki version 0.1 from OpenLink Software
+01:19:51   Support functions for CreoleWiki collaboration tool
+01:19:51   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+01:19:51 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+01:19:51   IM version 0.62 from OpenLink Software
+01:19:51   Support functions for Image Magick 6.9.9
+01:19:51   SUCCESS plugin 4: loaded from ../hosting/im.so }
+01:19:51 OpenLink Virtuoso Universal Server
+01:19:51 Version 07.20.3229-pthreads for Linux as of Aug 15 2018
+01:19:51 uses parts of OpenSSL, PCRE, Html Tidy
+01:20:04 SQL Optimizer enabled (max 1000 layouts)
+01:20:04 Compiler unit is timed at 0.000373 msec
+01:20:07 Checkpoint started
+01:20:07 Roll forward started
+01:20:07 Roll forward complete
+01:20:07 Checkpoint started
+01:20:08 Checkpoint finished, log reused
+01:20:08 Checkpoint started
+01:20:08 Checkpoint finished, log reused
+01:20:09 Checkpoint started
+01:20:09 Checkpoint finished, log reused
+01:20:10 Checkpoint started
+
+		Thu Nov 06 2025
+01:20:10 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+01:20:10   WikiV version 0.6 from OpenLink Software
+01:20:10   Support functions for WikiV collaboration tool
+01:20:10   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+01:20:10 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+01:20:10   MediaWiki version 0.1 from OpenLink Software
+01:20:10   Support functions for MediaWiki collaboration tool
+01:20:10   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+01:20:10 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+01:20:10   CreoleWiki version 0.1 from OpenLink Software
+01:20:10   Support functions for CreoleWiki collaboration tool
+01:20:10   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+01:20:10 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+01:20:10   IM version 0.62 from OpenLink Software
+01:20:10   Support functions for Image Magick 6.9.9
+01:20:10   SUCCESS plugin 4: loaded from ../hosting/im.so }
+01:20:10 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+01:20:10 Virtuoso is already runnning (pid 10920)
+01:20:10 This probably means you either do not have permission to start
+01:20:10 this server, or that virtuoso-t is already running.
+01:20:10 If you are absolutely sure that this is not the case, please try
+01:20:10 to remove the file ../database/virtuoso.lck and start again.
+01:20:10 Checkpoint finished, log reused
+01:20:11 Checkpoint started
+01:20:11 Checkpoint finished, log reused
+01:20:11 PL LOG: Installing Virtuoso Conductor version 1.00.8783 (DAV)
+01:20:11 PL LOG: Installing with dependencies Virtuoso Conductor version 1.00.8783/2018-08-15 20:02 (DAV)
+01:20:11 Checkpoint started
+01:20:12 Checkpoint finished, log reused
+01:20:12 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ SR325: Transaction aborted due to a database checkpoint or database-wide atomic operation. Please retry transaction
+01:20:14 Checkpoint started
+01:20:14 Checkpoint finished, log reused
+01:20:14 PL LOG: Installation with dependencies complete
+01:20:14 Checkpoint started
+01:20:15 Checkpoint finished, log reused
+01:20:15 HTTP/WebDAV server online at 8890
+01:20:15 Server online at 1111 (pid 10920)
+02:20:16 Checkpoint started
+02:20:16 Checkpoint finished, log reused
+03:20:17 Checkpoint started
+03:20:18 Checkpoint finished, log reused
+04:20:19 Checkpoint started
+04:20:19 Checkpoint finished, log reused
+05:18:04 PL LOG: Loader started
+05:20:32 Write load high relative to disk write throughput.  Flushing at   1.2e+02 MB/s while application is making dirty pages at        46 MB/s. Doing a second flushing pass before checkpoint
+05:20:42 Checkpoint started
+05:20:44 Checkpoint finished, log reused
+06:27:29 PL LOG: No more files to load. Loader has finished,
+07:50:38 Checkpoint started
+07:50:42 Checkpoint finished, log reused
+08:50:46 Checkpoint started
+08:50:46 Checkpoint finished, log reused
+09:50:49 Checkpoint started
+09:50:49 Checkpoint finished, log reused
+
+		Thu Nov 06 2025
+10:05:13 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+10:05:13   WikiV version 0.6 from OpenLink Software
+10:05:13   Support functions for WikiV collaboration tool
+10:05:13   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+10:05:13 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+10:05:13   MediaWiki version 0.1 from OpenLink Software
+10:05:13   Support functions for MediaWiki collaboration tool
+10:05:13   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+10:05:13 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+10:05:13   CreoleWiki version 0.1 from OpenLink Software
+10:05:13   Support functions for CreoleWiki collaboration tool
+10:05:13   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+10:05:13 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+10:05:13   IM version 0.62 from OpenLink Software
+10:05:13   Support functions for Image Magick 6.9.9
+10:05:13   SUCCESS plugin 4: loaded from ../hosting/im.so }
+10:05:13 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+10:05:13 Virtuoso is already runnning (pid 10920)
+10:05:13 This probably means you either do not have permission to start
+10:05:13 this server, or that virtuoso-t is already running.
+10:05:13 If you are absolutely sure that this is not the case, please try
+10:05:13 to remove the file ../database/virtuoso.lck and start again.
+10:08:24 PL LOG: Loader started
+10:08:48 PL LOG: No more files to load. Loader has finished,
