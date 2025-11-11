@@ -114,3 +114,321 @@
 10:05:13 to remove the file ../database/virtuoso.lck and start again.
 10:08:24 PL LOG: Loader started
 10:08:48 PL LOG: No more files to load. Loader has finished,
+
+		Sat Nov 08 2025
+19:44:18 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+19:44:18   WikiV version 0.6 from OpenLink Software
+19:44:18   Support functions for WikiV collaboration tool
+19:44:18   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+19:44:18 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+19:44:18   MediaWiki version 0.1 from OpenLink Software
+19:44:18   Support functions for MediaWiki collaboration tool
+19:44:18   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+19:44:18 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+19:44:18   CreoleWiki version 0.1 from OpenLink Software
+19:44:18   Support functions for CreoleWiki collaboration tool
+19:44:18   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+19:44:18 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+19:44:18   IM version 0.62 from OpenLink Software
+19:44:18   Support functions for Image Magick 6.9.9
+19:44:18   SUCCESS plugin 4: loaded from ../hosting/im.so }
+19:44:18 OpenLink Virtuoso Universal Server
+19:44:18 Version 07.20.3229-pthreads for Linux as of Aug 15 2018
+19:44:18 uses parts of OpenSSL, PCRE, Html Tidy
+19:44:29 Database version 3126
+19:44:29 SQL Optimizer enabled (max 1000 layouts)
+19:44:30 Compiler unit is timed at 0.000119 msec
+19:44:41 Roll forward started
+19:44:41     41 transactions, 3537 bytes replayed (100 %)
+19:44:41 Roll forward complete
+19:44:42 Checkpoint started
+19:44:43 Checkpoint finished, log reused
+19:44:43 HTTP/WebDAV server online at 8890
+19:44:43 Server online at 1111 (pid 12320)
+
+		Sat Nov 08 2025
+19:44:48 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+19:44:48   WikiV version 0.6 from OpenLink Software
+19:44:48   Support functions for WikiV collaboration tool
+19:44:48   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+19:44:48 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+19:44:48   MediaWiki version 0.1 from OpenLink Software
+19:44:48   Support functions for MediaWiki collaboration tool
+19:44:48   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+19:44:48 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+19:44:48   CreoleWiki version 0.1 from OpenLink Software
+19:44:48   Support functions for CreoleWiki collaboration tool
+19:44:48   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+19:44:48 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+19:44:48   IM version 0.62 from OpenLink Software
+19:44:48   Support functions for Image Magick 6.9.9
+19:44:48   SUCCESS plugin 4: loaded from ../hosting/im.so }
+19:44:48 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+19:44:48 Virtuoso is already runnning (pid 12320)
+19:44:48 This probably means you either do not have permission to start
+19:44:48 this server, or that virtuoso-t is already running.
+19:44:48 If you are absolutely sure that this is not the case, please try
+19:44:48 to remove the file ../database/virtuoso.lck and start again.
+
+		Sat Nov 08 2025
+21:33:28 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+21:33:28   WikiV version 0.6 from OpenLink Software
+21:33:28   Support functions for WikiV collaboration tool
+21:33:28   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+21:33:28 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+21:33:28   MediaWiki version 0.1 from OpenLink Software
+21:33:28   Support functions for MediaWiki collaboration tool
+21:33:28   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+21:33:28 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+21:33:28   CreoleWiki version 0.1 from OpenLink Software
+21:33:28   Support functions for CreoleWiki collaboration tool
+21:33:28   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+21:33:28 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+21:33:28   IM version 0.62 from OpenLink Software
+21:33:28   Support functions for Image Magick 6.9.9
+21:33:28   SUCCESS plugin 4: loaded from ../hosting/im.so }
+21:33:28 OpenLink Virtuoso Universal Server
+21:33:28 Version 07.20.3229-pthreads for Linux as of Aug 15 2018
+21:33:28 uses parts of OpenSSL, PCRE, Html Tidy
+21:33:42 Database version 3126
+21:33:42 SQL Optimizer enabled (max 1000 layouts)
+21:33:43 Compiler unit is timed at 0.000117 msec
+
+		Sat Nov 08 2025
+21:33:45 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+21:33:45   WikiV version 0.6 from OpenLink Software
+21:33:45   Support functions for WikiV collaboration tool
+21:33:45   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+21:33:45 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+21:33:45   MediaWiki version 0.1 from OpenLink Software
+21:33:45   Support functions for MediaWiki collaboration tool
+21:33:45   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+21:33:45 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+21:33:45   CreoleWiki version 0.1 from OpenLink Software
+21:33:45   Support functions for CreoleWiki collaboration tool
+21:33:45   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+21:33:45 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+21:33:45   IM version 0.62 from OpenLink Software
+21:33:45   Support functions for Image Magick 6.9.9
+21:33:45   SUCCESS plugin 4: loaded from ../hosting/im.so }
+21:33:45 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+21:33:45 Virtuoso is already runnning (pid 1601)
+21:33:45 This probably means you either do not have permission to start
+21:33:45 this server, or that virtuoso-t is already running.
+21:33:45 If you are absolutely sure that this is not the case, please try
+21:33:45 to remove the file ../database/virtuoso.lck and start again.
+21:33:52 Roll forward started
+21:33:52     66 transactions, 5720 bytes replayed (100 %)
+21:33:52 Roll forward complete
+21:33:54 Checkpoint started
+21:33:54 Checkpoint finished, log reused
+21:33:54 HTTP/WebDAV server online at 8890
+21:33:54 Server online at 1111 (pid 1601)
+
+		Sun Nov 09 2025
+12:32:59 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+12:32:59   WikiV version 0.6 from OpenLink Software
+12:32:59   Support functions for WikiV collaboration tool
+12:32:59   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+12:32:59 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+12:32:59   MediaWiki version 0.1 from OpenLink Software
+12:32:59   Support functions for MediaWiki collaboration tool
+12:32:59   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+12:32:59 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+12:32:59   CreoleWiki version 0.1 from OpenLink Software
+12:32:59   Support functions for CreoleWiki collaboration tool
+12:32:59   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+12:32:59 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+12:32:59   IM version 0.62 from OpenLink Software
+12:32:59   Support functions for Image Magick 6.9.9
+12:32:59   SUCCESS plugin 4: loaded from ../hosting/im.so }
+12:32:59 OpenLink Virtuoso Universal Server
+12:32:59 Version 07.20.3229-pthreads for Linux as of Aug 15 2018
+12:32:59 uses parts of OpenSSL, PCRE, Html Tidy
+12:33:09 Database version 3126
+12:33:09 SQL Optimizer enabled (max 1000 layouts)
+
+		Sun Nov 09 2025
+12:33:09 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+12:33:09   WikiV version 0.6 from OpenLink Software
+12:33:09   Support functions for WikiV collaboration tool
+12:33:09   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+12:33:09 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+12:33:09   MediaWiki version 0.1 from OpenLink Software
+12:33:09   Support functions for MediaWiki collaboration tool
+12:33:09   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+12:33:09 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+12:33:09   CreoleWiki version 0.1 from OpenLink Software
+12:33:09   Support functions for CreoleWiki collaboration tool
+12:33:09   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+12:33:09 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+12:33:09   IM version 0.62 from OpenLink Software
+12:33:09   Support functions for Image Magick 6.9.9
+12:33:09   SUCCESS plugin 4: loaded from ../hosting/im.so }
+12:33:09 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+12:33:09 Virtuoso is already runnning (pid 1998)
+12:33:09 This probably means you either do not have permission to start
+12:33:09 this server, or that virtuoso-t is already running.
+12:33:09 If you are absolutely sure that this is not the case, please try
+12:33:09 to remove the file ../database/virtuoso.lck and start again.
+12:33:10 Compiler unit is timed at 0.000122 msec
+12:33:16 Roll forward started
+12:33:17     29 transactions, 2471 bytes replayed (100 %)
+12:33:17 Roll forward complete
+12:33:18 Checkpoint started
+12:33:19 Checkpoint finished, log reused
+12:33:19 HTTP/WebDAV server online at 8890
+12:33:19 Server online at 1111 (pid 1998)
+
+		Sun Nov 09 2025
+12:33:23 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+12:33:23   WikiV version 0.6 from OpenLink Software
+12:33:23   Support functions for WikiV collaboration tool
+12:33:23   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+12:33:23 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+12:33:23   MediaWiki version 0.1 from OpenLink Software
+12:33:23   Support functions for MediaWiki collaboration tool
+12:33:23   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+12:33:23 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+12:33:23   CreoleWiki version 0.1 from OpenLink Software
+12:33:23   Support functions for CreoleWiki collaboration tool
+12:33:23   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+12:33:23 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+12:33:23   IM version 0.62 from OpenLink Software
+12:33:23   Support functions for Image Magick 6.9.9
+12:33:23   SUCCESS plugin 4: loaded from ../hosting/im.so }
+12:33:23 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+12:33:23 Virtuoso is already runnning (pid 1998)
+12:33:23 This probably means you either do not have permission to start
+12:33:23 this server, or that virtuoso-t is already running.
+12:33:23 If you are absolutely sure that this is not the case, please try
+12:33:23 to remove the file ../database/virtuoso.lck and start again.
+
+		Sun Nov 09 2025
+12:41:21 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+12:41:21   WikiV version 0.6 from OpenLink Software
+12:41:21   Support functions for WikiV collaboration tool
+12:41:21   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+12:41:21 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+12:41:21   MediaWiki version 0.1 from OpenLink Software
+12:41:21   Support functions for MediaWiki collaboration tool
+12:41:21   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+12:41:21 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+12:41:21   CreoleWiki version 0.1 from OpenLink Software
+12:41:21   Support functions for CreoleWiki collaboration tool
+12:41:21   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+12:41:21 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+12:41:21   IM version 0.62 from OpenLink Software
+12:41:21   Support functions for Image Magick 6.9.9
+12:41:21   SUCCESS plugin 4: loaded from ../hosting/im.so }
+12:41:21 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+12:41:21 Virtuoso is already runnning (pid 1998)
+12:41:21 This probably means you either do not have permission to start
+12:41:21 this server, or that virtuoso-t is already running.
+12:41:21 If you are absolutely sure that this is not the case, please try
+12:41:21 to remove the file ../database/virtuoso.lck and start again.
+
+		Sun Nov 09 2025
+13:57:09 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+13:57:09   WikiV version 0.6 from OpenLink Software
+13:57:09   Support functions for WikiV collaboration tool
+13:57:09   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+13:57:09 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+13:57:09   MediaWiki version 0.1 from OpenLink Software
+13:57:09   Support functions for MediaWiki collaboration tool
+13:57:09   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+13:57:09 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+13:57:09   CreoleWiki version 0.1 from OpenLink Software
+13:57:09   Support functions for CreoleWiki collaboration tool
+13:57:09   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+13:57:09 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+13:57:09   IM version 0.62 from OpenLink Software
+13:57:09   Support functions for Image Magick 6.9.9
+13:57:09   SUCCESS plugin 4: loaded from ../hosting/im.so }
+13:57:09 OpenLink Virtuoso Universal Server
+13:57:09 Version 07.20.3229-pthreads for Linux as of Aug 15 2018
+13:57:09 uses parts of OpenSSL, PCRE, Html Tidy
+13:57:20 Database version 3126
+13:57:20 SQL Optimizer enabled (max 1000 layouts)
+13:57:21 Compiler unit is timed at 0.000127 msec
+13:57:27 Roll forward started
+13:57:27     29 transactions, 2471 bytes replayed (100 %)
+13:57:27 Roll forward complete
+
+		Sun Nov 09 2025
+13:57:28 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+13:57:28   WikiV version 0.6 from OpenLink Software
+13:57:28   Support functions for WikiV collaboration tool
+13:57:28   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+13:57:28 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+13:57:28   MediaWiki version 0.1 from OpenLink Software
+13:57:28   Support functions for MediaWiki collaboration tool
+13:57:28   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+13:57:28 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+13:57:28   CreoleWiki version 0.1 from OpenLink Software
+13:57:28   Support functions for CreoleWiki collaboration tool
+13:57:28   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+13:57:28 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+13:57:28   IM version 0.62 from OpenLink Software
+13:57:28   Support functions for Image Magick 6.9.9
+13:57:28   SUCCESS plugin 4: loaded from ../hosting/im.so }
+13:57:28 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+13:57:28 Virtuoso is already runnning (pid 15384)
+13:57:28 This probably means you either do not have permission to start
+13:57:28 this server, or that virtuoso-t is already running.
+13:57:28 If you are absolutely sure that this is not the case, please try
+13:57:28 to remove the file ../database/virtuoso.lck and start again.
+13:57:29 Checkpoint started
+13:57:29 Checkpoint finished, log reused
+13:57:29 HTTP/WebDAV server online at 8890
+13:57:29 Server online at 1111 (pid 15384)
+
+		Sun Nov 09 2025
+14:12:55 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+14:12:55   WikiV version 0.6 from OpenLink Software
+14:12:55   Support functions for WikiV collaboration tool
+14:12:55   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+14:12:55 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+14:12:55   MediaWiki version 0.1 from OpenLink Software
+14:12:55   Support functions for MediaWiki collaboration tool
+14:12:55   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+14:12:55 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+14:12:55   CreoleWiki version 0.1 from OpenLink Software
+14:12:55   Support functions for CreoleWiki collaboration tool
+14:12:55   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+14:12:55 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+14:12:55   IM version 0.62 from OpenLink Software
+14:12:55   Support functions for Image Magick 6.9.9
+14:12:55   SUCCESS plugin 4: loaded from ../hosting/im.so }
+14:12:55 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+14:12:55 Virtuoso is already runnning (pid 15384)
+14:12:55 This probably means you either do not have permission to start
+14:12:55 this server, or that virtuoso-t is already running.
+14:12:55 If you are absolutely sure that this is not the case, please try
+14:12:55 to remove the file ../database/virtuoso.lck and start again.
+
+		Sun Nov 09 2025
+14:18:18 { Loading plugin 1: Type `plain', file `wikiv' in `../hosting'
+14:18:18   WikiV version 0.6 from OpenLink Software
+14:18:18   Support functions for WikiV collaboration tool
+14:18:18   SUCCESS plugin 1: loaded from ../hosting/wikiv.so }
+14:18:18 { Loading plugin 2: Type `plain', file `mediawiki' in `../hosting'
+14:18:18   MediaWiki version 0.1 from OpenLink Software
+14:18:18   Support functions for MediaWiki collaboration tool
+14:18:18   SUCCESS plugin 2: loaded from ../hosting/mediawiki.so }
+14:18:18 { Loading plugin 3: Type `plain', file `creolewiki' in `../hosting'
+14:18:18   CreoleWiki version 0.1 from OpenLink Software
+14:18:18   Support functions for CreoleWiki collaboration tool
+14:18:18   SUCCESS plugin 3: loaded from ../hosting/creolewiki.so }
+14:18:18 { Loading plugin 4: Type `plain', file `im' in `../hosting'
+14:18:18   IM version 0.62 from OpenLink Software
+14:18:18   Support functions for Image Magick 6.9.9
+14:18:18   SUCCESS plugin 4: loaded from ../hosting/im.so }
+14:18:18 Unable to lock file ../database/virtuoso.lck (Resource temporarily unavailable).
+14:18:18 Virtuoso is already runnning (pid 15384)
+14:18:18 This probably means you either do not have permission to start
+14:18:18 this server, or that virtuoso-t is already running.
+14:18:18 If you are absolutely sure that this is not the case, please try
+14:18:18 to remove the file ../database/virtuoso.lck and start again.
+14:57:34 Checkpoint started
+14:57:34 Checkpoint finished, log reused
