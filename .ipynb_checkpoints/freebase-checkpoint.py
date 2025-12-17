@@ -4,8 +4,8 @@ from utils import run_llm, token_count, get_list_str
 import time
 
 
-#SPARQLPATH = "http://10.1.25.43:8890/sparql"  # depend on your own internal address and port
-SPARQLPATH= "http://localhost:8890/sparql"
+SPARQLPATH = "http://10.1.25.43:8890/sparql"  # depend on your own internal address and port
+# SPARQLPATH= "http://localhost:8890/sparql"
 
 # pre-defined sparql
 sparql_relations = """

@@ -1,0 +1,5 @@
+# My configuration
+virtuoso-opensource
+models
+GNN_Retrieval/data
+GNN_Retrieval/checkpoint

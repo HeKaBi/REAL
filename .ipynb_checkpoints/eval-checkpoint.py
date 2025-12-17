@@ -33,21 +33,13 @@ def reverse_match(answer: str, result: str) -> bool:   # e.g question: when ...?
 answers = prepare_answer(args.dataset)
 results = read_jsonl(args.file_path)
 hits = []
-mx = 0
 
 for result in results:
     answer = answers[result['question']]
-    r = result
     result = result['result']
     if match(answer, result) or reverse_match(answer, result):
         hits.append(1)
     else:
-        if mx <= 10:
-            print(f"Question: {r['question']}")
-            print(f"Answer: {answer}")
-            print(f"Result: {result}")
-            print("-----")
-            mx += 1
         hits.append(0)
 
 print("# of Correct: {}".format(sum(hits)))

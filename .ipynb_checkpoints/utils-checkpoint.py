@@ -51,8 +51,8 @@ def run_llm(prompt: str, args, history: list = None, retry_prompt: str = None) -
     """ Send prompts into LLM and get response. """
     if "llama" in args.llm.lower():
         #base_url = "http://10.3.217.80:29890/v1"  # your local llama server port
-        base_url = "http://localhost:8000/v1"
-        #base_url = "http://0.0.0.0:8000"
+        #base_url = "http://localhost:8000/v1"
+        base_url = "http://0.0.0.0:8000"
         client = OpenAI(api_key="EMPTY", base_url=base_url)
         engine = client.models.list().data[0].id
     else:
