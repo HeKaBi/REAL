@@ -1,7 +1,7 @@
 SPLIT="test"
 DATASET_LIST="RoG-cwq"
 MODEL_NAME=chatgpt
-PROMPT_PATH=llm/prompts/llama2_predict.txt
+PROMPT_PATH=llm/prompts/general_prompt.txt
 BEAM_LIST="3" # "1 2 3 4 5"d
 OUTPUT_BASE_PATH='./myresults'
 export OPENAI_API_KEY='EMPTY'

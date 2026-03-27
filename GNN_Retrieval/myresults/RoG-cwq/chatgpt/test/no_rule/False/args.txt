@@ -4,7 +4,7 @@
   "split": "test",
   "predict_path": "./myresults",
   "model_name": "chatgpt",
-  "prompt_path": "llm/prompts/llama2_predict.txt",
+  "prompt_path": "llm/prompts/general_prompt.txt",
   "add_rule": false,
   "use_true": false,
   "cot": false,
