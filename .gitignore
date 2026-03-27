@@ -4,3 +4,4 @@ GNN_Retrieval/data
 GNN_Retrieval/checkpoint
 GNN_Retrieval/data.zip
 GNN_Retrieval/pretrain_lms.zip
+GNN_Retrieval/myresults/RoG-cwq/chatgpt/test[:200]
