@@ -27,7 +27,10 @@ class PromptBuilder(object):
     MCQ_INSTRUCTION = """Please answer the following questions. Please select the answers from the given choices and return the answer only."""
     SAQ_INSTRUCTION = """Please answer the following questions. Please keep the answer as simple as possible and return all the possible answer as a list."""
     MCQ_RULE_INSTRUCTION = """Based on the reasoning paths, please answer the given question. Please select the answers from the given choices and return the answers only."""
-    SAQ_RULE_INSTRUCTION = """Based on the reasoning paths, please answer the given question. Please keep the answer as simple as possible and return all the possible answers as a list."""
+    
+    SAQ_RULE_INSTRUCTION = """Based on the reasoning paths, answer the question by returning only answer entities. The first line must be the single most likely answer. If there are additional possible answers, return them on separate new lines after the first line.  If the reasoning paths are insufficient or unrelated to the question, output
+  NOT_ENOUGH_INFO on the first line. Do not provide any explanation, analysis, or introductory text. Do not repeat the
+  question. Do not use bullets, numbering, prefixes, or phrases such as 'The answer is' or 'Based on the reasoning paths'."""
     #SAQ_RULE_INSTRUCTION = """Based on the provided knowledge, please answer the given question. Please keep the answer as simple as possible and return all the possible answers as a list."""
     #SAQ_RULE_INSTRUCTION = """Your tasks is to use the following facts and answer the question. Make sure that you use the information from the facts provided. Please keep the answer as simple as possible and return all the possible answers as a list."""
     COT = """ Let's think it step by step."""

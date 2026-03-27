@@ -18,11 +18,13 @@ for DATA_NAME in $DATASET_LIST; do
         python llm/src/qa_prediction/predict_answer.py \
             --model_name ${MODEL_NAME} \
             -d ${DATA_NAME} \
+            --split ${SPLIT} \
             --prompt_path ${PROMPT_PATH} \
             --rule_path ${RULE_PATH} \
             --rule_path_g1 ${RULE_PATH_G1} \
             --rule_path_g2 ${RULE_PATH_G2} \
             --predict_path ${OUTPUT_BASE_PATH}\
+            --each_line\
             --force
             
     done

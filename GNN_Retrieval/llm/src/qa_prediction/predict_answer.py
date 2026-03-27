@@ -125,7 +125,7 @@ def merge_rule_result(qa_dataset, rule_dataset, n_proc=1, filter_empty=False):
     return qa_dataset
 
 
-def prediction(data, processed_list, input_builder, model, encrypt=False, data_file_gnn=None):
+def prediction(data, processed_list, input_builder, model, encrypt=False, data_file_gnn=None,failed_file=None):
     question = data["question"]
     answer = data["answer"]
     entities = data['q_entity']
@@ -159,9 +159,20 @@ def prediction(data, processed_list, input_builder, model, encrypt=False, data_f
         }
     
     input = input_builder.process_input(data)
-    prediction = model.generate_sentence(input).strip()
+    prediction = model.generate_sentence(input)
     if prediction is None:
+        if failed_file is not None:
+          failed_case = {
+              "id": id,
+              "question": question,
+              "ground_truth": answer,
+              "input": input,
+              "reason": "llm_timeout_or_none",
+          }
+          with open(failed_file, "a", encoding="utf-8") as ff:
+              ff.write(json.dumps(failed_case, ensure_ascii=False) + "\n")        
         return None
+    prediction = prediction.strip()
     result = {
         "id": id,
         "question": question,
@@ -210,6 +221,7 @@ def main(args, LLM):
         args.predict_path, args.d, args.model_name, args.split, rule_postfix, str(args.encrypt)
     )
     print("Save results to: ", output_dir)
+    failed_file = os.path.join(output_dir, "failed_cases.jsonl")
     # Predict
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -253,7 +265,8 @@ def main(args, LLM):
                         input_builder=input_builder,
                         model=model,
                         encrypt=args.encrypt,
-                        data_file_gnn=data_file_gnn
+                        data_file_gnn=data_file_gnn,
+                        failed_file=failed_file,
 
                     ),
                     dataset,
@@ -267,7 +280,7 @@ def main(args, LLM):
                     fout.flush()
     else:
         for data in tqdm(dataset):
-            res = prediction(data, processed_list, input_builder, model, encrypt=args.encrypt, data_file_gnn=data_file_gnn)
+            res = prediction(data, processed_list, input_builder, model, encrypt=args.encrypt, data_file_gnn=data_file_gnn, failed_file=failed_file)
             if res is not None:
                 if args.debug:
                     print(json.dumps(res))
