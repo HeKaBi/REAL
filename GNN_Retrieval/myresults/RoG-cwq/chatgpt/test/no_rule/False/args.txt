@@ -1,0 +1,23 @@
+{
+  "data_path": "rmanluo",
+  "d": "RoG-cwq",
+  "split": "test",
+  "predict_path": "./myresults",
+  "model_name": "chatgpt",
+  "prompt_path": "llm/prompts/llama2_predict.txt",
+  "add_rule": false,
+  "use_true": false,
+  "cot": false,
+  "explain": false,
+  "use_random": false,
+  "each_line": false,
+  "rule_path": "results/gen_rule_path/RoG-cwq/chatgpt/test/predictions_3_False.jsonl",
+  "rule_path_g1": "checkpoint/pretrain/prn_cwq-rearev-lmsr_test.info",
+  "rule_path_g2": "None",
+  "force": true,
+  "n": 1,
+  "filter_empty": false,
+  "debug": false,
+  "encrypt": false,
+  "retry": 5
+}

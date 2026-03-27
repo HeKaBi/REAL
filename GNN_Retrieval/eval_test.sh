@@ -2,7 +2,7 @@ SPLIT="test"
 DATASET_LIST="RoG-cwq"
 MODEL_NAME=chatgpt
 PROMPT_PATH=llm/prompts/llama2_predict.txt
-BEAM_LIST="3" # "1 2 3 4 5"
+BEAM_LIST="3" # "1 2 3 4 5"d
 OUTPUT_BASE_PATH='./myresults'
 export OPENAI_API_KEY='EMPTY'
 export OPENAI_API_BASE='http://0.0.0.0:8000/v1'
@@ -23,6 +23,7 @@ for DATA_NAME in $DATASET_LIST; do
             --rule_path_g1 ${RULE_PATH_G1} \
             --rule_path_g2 ${RULE_PATH_G2} \
             --predict_path ${OUTPUT_BASE_PATH}\
+            --force
             
     done
 done

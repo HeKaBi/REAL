@@ -2,7 +2,7 @@ from .chatgpt import ChatGPT
 from .alpaca import Alpaca
 from .longchat.longchat import Longchat
 from .base_language_model import BaseLanguageModel
-from .llama import Llama
+# from .llama import Llama
 from .flan_t5 import FlanT5
 
 registed_language_models = {
@@ -10,9 +10,9 @@ registed_language_models = {
     'gpt-3.5-turbo': ChatGPT,
     'alpaca': Alpaca,
     'longchat': Longchat,
-    'llama': Llama,
+    # 'llama': Llama,
     'flan-t5': FlanT5,
-    'rog': Llama,
+    # 'rog': Llama,
     'chatgpt': ChatGPT,
 }
 
